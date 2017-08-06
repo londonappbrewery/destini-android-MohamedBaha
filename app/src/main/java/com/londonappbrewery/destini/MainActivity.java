@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (mStoryIndex == 1) {
+                    mStoryIndex=2;
                     storyTextView.setText(R.string.T2_Story);
                     buttonTop.setText(R.string.T2_Ans1);
                     buttonBottom.setText(R.string.T2_Ans2);
